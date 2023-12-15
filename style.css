@@ -1,0 +1,613 @@
+
+    body {
+      padding-top: 56px; 
+    }
+
+    .navbar-brand img {
+      height: 40px; 
+    }
+
+    nav{
+        margin-bottom: 10px;
+    }
+
+    
+ 
+/* slider images */
+/* Slideshow Container */
+/* Single H1 Tag */
+.hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #e9c057;
+    font-size: 4.5em; /* Adjust the font size as needed */
+    font-family: 'ZCOOL XiaoWei',serif;
+  }
+
+.slideshow-container {
+    
+    position: relative;
+    margin: auto;
+  }
+
+  /* Slider Images */
+  .mySlides {
+   
+    width: 100%;
+    height: 90vh;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Text on Slides */
+  .text {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Navigation Dots */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* About Section Styles */
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Cookie",cursive;
+    
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .about-image:hover {
+    transform: scale(1.05);
+  }
+
+  .about-content {
+    margin-top: 20px;
+  }
+
+  /* Media Queries for Responsive Design */
+  @media (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-content {
+      margin-left: 30px;
+      text-align: left;
+    }
+  }
+
+  /* info sections */
+  /* Responsive Div Styles */
+  .info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .info-box {
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+
+  .info-container :hover {
+    transform: scale(1.05);
+  }
+
+  .info-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* Spaciality section  */
+ 
+.Spaciality h2{
+    text-align: center;
+    font-family: "Cookie",cursive;
+}
+
+.Spaciality span{
+    color: #e9c057;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cards-container .card h2{
+    font-size: 24px;
+}
+
+.cards-container .card p{
+    text-align: center;
+}
+
+.cards-container .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid #e9c057; /* Adjust color and thickness as needed */
+}
+
+.icon {
+    width: 50px; /* Set the width of the icon */
+    height: 50px; /* Set the height of the icon */
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: calc(50% - 30px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card {
+        width: calc(100% - 30px);
+    }
+}
+
+    body {
+      padding-top: 56px; 
+    }
+
+    .navbar-brand img {
+      height: 40px; 
+    }
+
+    nav{
+        margin-bottom: 10px;
+    }
+
+    
+ 
+/* slider images */
+/* Slideshow Container */
+/* Single H1 Tag */
+.hero-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #e9c057;
+    font-size: 4.5em; /* Adjust the font size as needed */
+    font-family: 'ZCOOL XiaoWei',serif;
+  }
+
+.slideshow-container {
+    
+    position: relative;
+    margin: auto;
+  }
+
+  /* Slider Images */
+  .mySlides {
+   
+    width: 100%;
+    height: 90vh;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Text on Slides */
+  .text {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Navigation Dots */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* About Section Styles */
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    font-family: "Cookie",cursive;
+    
+  }
+
+  .about-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .about-image:hover {
+    transform: scale(1.05);
+  }
+
+  .about-content {
+    margin-top: 20px;
+  }
+
+  /* Media Queries for Responsive Design */
+  @media (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .about-content {
+      margin-left: 30px;
+      text-align: left;
+    }
+  }
+
+  /* info sections */
+  /* Responsive Div Styles */
+  .info-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .info-box {
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+
+  .info-container :hover {
+    transform: scale(1.05);
+  }
+
+  .info-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* Spaciality section  */
+ 
+.Spaciality h2{
+    text-align: center;
+    font-family: "Cookie",cursive;
+}
+
+.Spaciality span{
+    color: #e9c057;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.cards-container .card h2{
+    font-size: 24px;
+}
+
+.cards-container .card p{
+    text-align: center;
+}
+
+.cards-container .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid #e9c057; /* Adjust color and thickness as needed */
+}
+
+.icon {
+    width: 50px; /* Set the width of the icon */
+    height: 50px; /* Set the height of the icon */
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: calc(50% - 30px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card {
+        width: calc(100% - 30px);
+    }
+}
+
+/* photos */
+.gallery-view{
+  margin: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  max-width: 800px; /* Set a maximum width for larger screens */
+}
+
+.photo {
+  text-align: center;
+  /* background-color: #fff;
+  border: 1px solid #ddd; */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+.photo p {
+  padding: 10px;
+  margin: 0;
+  color: #333;
+}
+
+@media screen and (min-width: 600px) {
+  .gallery-view {
+    display: flex;
+  }
+}
+
+/* food menu */
+.menu-list h2{
+  text-align: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.item {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  border-bottom: 2px solid #e9c057; /* Adjust color and thickness as needed */
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.item img {
+  width: 30%;
+ 
+  /* object-fit: cover; */
+  border-bottom: 2px solid #ddd;
+}
+
+.item-content {
+  padding: 1rem;
+}
+
+/* Contact Form */
+.contact-container {
+  max-width: 800px;
+  margin: 50px auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.contact-form img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+  float: left;
+}
+
+.contact-form form {
+  overflow: hidden;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  float: right;
+  padding: 10px 20px;
+  background-color:transparent;
+  color: #000000;
+  border: 2px solid #e9c057;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form img {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
+}
+
+/* footer section  */
+.site-footer {
+  background-color: #000000;
+  color:#e9c057;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-icon img {
+  width: 50px; /* Adjust the size as needed */
+}
+
+.footer-links a {
+  color: #e9c057;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.email-input {
+  display: flex;
+  align-items: center;
+}
+
+.email-input input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.email-input button {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+      margin-top: 10px;
+  }
+
+  .email-input {
+      flex-direction: column;
+      margin-top: 10px;
+  }
+
+  .email-input input {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
